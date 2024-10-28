@@ -1,4 +1,4 @@
-This is a guide to build a service written in C++ 17 that will hook into the Bing public search engine.
+This is a guide to build a service written in .NET C#  that will hook into the Bing public search engine.
 
 Step 1: Basic Service Setup
 - Create a basic C++ project structure:
