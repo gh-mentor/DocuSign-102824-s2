@@ -64,6 +64,7 @@ namespace PayrollLibrary
     - city: a string that stores the company's city
     - state: a string that stores the company's state
     - zip: a string that stores the company's zip code
+    - country-code: a string that stores the company's country code
     public methods:
     - A constructor that initializes the address, city, state, and zip fields
     - 'GetFullAddress' returns the full address as a string
@@ -75,18 +76,30 @@ namespace PayrollLibrary
         private string city;
         private string state;
         private string zip;
+        private string countryCode;
 
-        public CompanyAddress(string address, string city, string state, string zip)
+        /// <summary>
+        /// Initializes a new instance of the <see cref="CompanyAddress"/> class.
+        /// </summary>
+        /// <param name="address">The street address of the company.</param>
+        /// <param name="city">The city where the company is located.</param>
+        /// <param name="state">The state where the company is located.</param>
+        /// <param name="zip">The ZIP code of the company's location.</param>
+        /// <param name="countryCode">The country code of the company's location.</param>
+        public CompanyAddress(string address, string city, string state, string zip, string countryCode)
         {
             this.address = address;
             this.city = city;
             this.state = state;
             this.zip = zip;
+            this.countryCode = countryCode;
         }
 
         public string GetFullAddress()
         {
-            return address + ", " + city + ", " + state + " " + zip;
+            return $"{address}, {city}, {state}, {zip}, {countryCode}";
         }
     }
+
+
 }

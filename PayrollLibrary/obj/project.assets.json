@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ascop\\Documents\\Repos\\general-purpose\\PayrollLibrary\\PayrollLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\ascop\\DocuSign-102924-s1\\PayrollLibrary\\PayrollLibrary.csproj",
       "projectName": "PayrollLibrary",
-      "projectPath": "C:\\Users\\ascop\\Documents\\Repos\\general-purpose\\PayrollLibrary\\PayrollLibrary.csproj",
+      "projectPath": "C:\\Users\\ascop\\DocuSign-102924-s1\\PayrollLibrary\\PayrollLibrary.csproj",
       "packagesPath": "C:\\Users\\ascop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ascop\\Documents\\Repos\\general-purpose\\PayrollLibrary\\obj\\",
+      "outputPath": "C:\\Users\\ascop\\DocuSign-102924-s1\\PayrollLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

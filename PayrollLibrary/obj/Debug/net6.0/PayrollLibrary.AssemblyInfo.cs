@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PayrollLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7751480fa02662c3c22c0d7151e4a07c7e968838")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bc7592b9c08c216ed298474d112b01dd5f838bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("PayrollLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PayrollLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

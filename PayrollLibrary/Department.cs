@@ -57,7 +57,11 @@ namespace PayrollLibrary
 
         public void AddEmployee(Employee employee)
         {
-            _Employees.Add(employee);
+            // if the Employee is not already in the list, add it
+            if (!_Employees.Contains(employee))
+            {
+                _Employees.Add(employee);
+            }
         }
 
         public override string ToString()
